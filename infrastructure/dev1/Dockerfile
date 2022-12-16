@@ -6,4 +6,4 @@ WORKDIR /app
 
 EXPOSE 5000
 
-ENTRYPOINT ["/bin/sh"]
+ENTRYPOINT [ "/bin/sh" ]
