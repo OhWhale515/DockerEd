@@ -9,6 +9,7 @@ services:
       - type: volume
         source: dev1-vol
         target: /app
+  nodered:
 volumes:
   dev1-vol: {}
   
