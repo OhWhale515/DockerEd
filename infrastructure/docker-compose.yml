@@ -10,6 +10,8 @@ services:
         source: dev1-vol
         target: /app
   nodered:
+    container_name: nodered
+    image: nodered/node-red
 volumes:
   dev1-vol: {}
   
