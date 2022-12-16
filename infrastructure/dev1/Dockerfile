@@ -4,6 +4,9 @@ COPY ./app/ /app
 
 WORKDIR /app
 
+RUN pip install r requirements.txt
+
 EXPOSE 5000
 
-ENTRYPOINT [ "/bin/sh" ]
+ENTRYPOINT [ "/bin/sh", "run.sh" ]
+
