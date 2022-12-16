@@ -1,10 +1,10 @@
 IMAGE          CREATED          CREATED BY                                      SIZE      COMMENT
-604fb692192d   31 seconds ago   /bin/sh -c #(nop)  CMD ["app.py"]               0B        
-99fe5d723359   31 seconds ago   /bin/sh -c #(nop)  ENTRYPOINT ["python"]        0B        
-8836e4c105b9   31 seconds ago   /bin/sh -c #(nop)  EXPOSE 5000                  0B        
-645b089008d2   32 seconds ago   /bin/sh -c pip install -r requirements.txt      19.4MB    
-cf4479facd06   38 seconds ago   /bin/sh -c #(nop) WORKDIR /app                  0B        
-b0d43ee9148c   38 seconds ago   /bin/sh -c #(nop) COPY dir:464191b50b5e79989…   980B      
+3fda9d594a52   14 seconds ago   /bin/sh -c #(nop)  CMD ["app.py"]               0B        
+95df947d3d93   14 seconds ago   /bin/sh -c #(nop)  ENTRYPOINT ["python"]        0B        
+c2b5ef0a2f4a   14 seconds ago   /bin/sh -c #(nop)  EXPOSE 5000                  0B        
+e26970f73f6f   14 seconds ago   /bin/sh -c pip install -r requirements.txt      19.4MB    
+b029c9ec7379   20 seconds ago   /bin/sh -c #(nop) WORKDIR /app                  0B        
+52e69cbab830   20 seconds ago   /bin/sh -c #(nop) COPY dir:76c39e81505293a16…   980B      
 539eccd5ee4e   8 days ago       /bin/sh -c #(nop)  CMD ["python3"]              0B        
 <missing>      8 days ago       /bin/sh -c set -eux;   wget -O get-pip.py "$…   10.9MB    
 <missing>      8 days ago       /bin/sh -c #(nop)  ENV PYTHON_GET_PIP_SHA256…   0B        
