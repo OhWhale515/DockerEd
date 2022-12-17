@@ -6,20 +6,4 @@ services:
     ports:
       - "5000:5000"
     volumes:
-      - type: volume
-        source: dev1-vol
-        target: /app
-  nodered:
-    container_name: nodered
-    image: nodered/node-red
-    ports:
-      - "1880:1880"
-    volumes:
-      - type:  volume
-        source: nodered-vol
-        target: /data
-        
-volumes:
-  dev1-vol: {}
-  nodered-vol: {}
-  
+      - ./dev1/app/:/app/
